@@ -4,12 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:theme="@style/Theme.Tink"
+    android:orientation="vertical"
+    android:background="@color/purple_500"
     tools:context=".MainActivity">
 
-    <com.example.uikittink.TinTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="asdasdasdasdasd"/>
+   <com.example.uikittink.CardCountMin
+       android:id="@+id/card_min"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="8dp"
+       app:title_min="123"/>
+
+   <com.example.uikittink.CardCount
+       android:id="@+id/card"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="8dp"
+       app:title="123"
+       app:sub_title="000"/>
+
+   <com.example.uikittink.CardCountBut
+       android:id="@+id/card_but"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="8dp"
+       app:title_with_but="123"
+       app:sub_title_with_but="000"
+       app:but_text="sss"/>
+
 </LinearLayout>

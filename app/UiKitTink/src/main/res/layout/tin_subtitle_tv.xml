@@ -6,6 +6,7 @@
 
     <TextView
         android:layout_width="wrap_content"
+        style="@style/TitleTin"
         android:text="asdasdasd"
         android:layout_height="wrap_content"/>
 
